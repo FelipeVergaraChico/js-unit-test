@@ -11,6 +11,13 @@
     - average([1, '2']) // Retorno: undefined;
 */
 
-const average = () => {};
+const average = (sequencia) => {
+  // adicione seu codigo aq
+  let soma = 0;
+  for (let i = 0; i < sequencia.length; i += 1) {
+  return soma += sequencia[i];
+  }
+};
+console.log(average([5, 3, 4]));
 
 module.exports = average;
